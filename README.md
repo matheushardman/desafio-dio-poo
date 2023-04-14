@@ -4,9 +4,11 @@ Repositório designado para o desafio de projeto do módulo "Programação Orien
 
 ## Sobre o desafio
 
-O desafio consiste em abstrair o domínio Bootcamp, criando classes que representem os assuntos relacionados ao mesmo, como os cursos e mentorias, o desenvolvedor que irá realiza-ló e o próprio bootcamp. Neste utilizão-se os conceitos de Abstração, Encapsulamento, Polimorfismo e Herança.
+O desafio consiste em abstrair o domínio Bootcamp, criando classes que representem os assuntos relacionados ao mesmo, como os cursos e mentorias, o desenvolvedor que irá realiza-ló e o próprio bootcamp. 
 
 Para isso criou-se seis (6) classes ao total, Conteudo, Curso, Mentoria, Dev, Bootcamp e Main.
+
+Neste desafio utilizou-se os conceitos dos pilares do Paradigma de Programação Orientada a Objetos: Abstração, Encapsulamento, Polimorfismo e Herança.
 
 ### Classe Conteudo
 
