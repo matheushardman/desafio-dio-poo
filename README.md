@@ -4,15 +4,15 @@ Repositório designado para o desafio de projeto do módulo "Programação Orien
 
 ## Sobre o desafio
 
-O desafio consiste em abstrair o domínio Bootcamp, criando classes que representem os assuntos relacionados ao mesmo, como os cursos e mentorias, o desenvolvedor que irá realiza-ló e o próprio bootcamp. 
+O desafio consiste em abstrair o domínio Bootcamp, criando classes que representem os assuntos relacionados ao mesmo, como os cursos e mentorias, o desenvolvedor que irá realiza-lo e o próprio bootcamp. 
 
 Para isso criou-se seis (6) classes ao total, Conteudo, Curso, Mentoria, Dev, Bootcamp e Main.
 
-Neste desafio utilizou-se os conceitos dos pilares do Paradigma de Programação Orientada a Objetos: Abstração, Encapsulamento, Polimorfismo e Herança.
+Neste desafio utilizou-se os conceitos dos pilares do Paradigma de Programação Orientada a Objetos (POO): Abstração, Encapsulamento, Polimorfismo e Herança.
 
 ### Classe Conteudo
 
-Utilizou-se o pilar Herança do POO para criar uma classe Conteúdo que tinha atributos característicos tanto das classes Curso quanto Mentoria, esses atributos são titulo e mentoria, além disso define-se o atributo XP_PADRAO como final recebendo o valor de 10. O método presente nessa classe é o calcularXp que será sobrescrito nas classes Curso e Mentoria.
+Utilizou-se o pilar Herança da POO para criar uma classe Conteudo que tem atributos característicos tanto das classes Curso quanto Mentoria, esses atributos são titulo e mentoria, além disso define-se o atributo XP_PADRAO como final recebendo o valor de 10. O método presente nessa classe é o calcularXp que foi sobrescrito nas classes Curso e Mentoria.
 
 [Código Classe Conteudo](https://github.com/matheushardman/desafio-dio-poo/blob/main/src/br/com/dio/desafio/dominio/Conteudo.java)
 
@@ -30,7 +30,7 @@ A classe Mentoria herda os atributos da classe Conteudo e adiciona um atributo p
 
 ### Classe Bootcamp
 
-Para essa classe os atributos são nome, descrição, dataInicial, dataFinal (utilizando a classe LocalDate), devsInscritos (HashSet) e conteudos (LinkedHashSet) para representar o bootcamp 
+Para essa classe os atributos são nome, descrição, dataInicial, dataFinal (utilizando a classe LocalDate), devsInscritos (HashSet) e conteudos (LinkedHashSet) para representar o bootcamp.
 
 [Código Classe Bootcamp](https://github.com/matheushardman/desafio-dio-poo/blob/main/src/br/com/dio/desafio/dominio/Bootcamp.java)
 
@@ -42,6 +42,6 @@ Nessa classe definiu-se os atributos nome, conteúdos inscritos e concluídos es
 
 ### Classe Main
 
-Na classe main, define-se os objetos com base nas classes Curso para adicionar um novo curso, Mentoria para adicionar uma nova mentoria, Bootcamp para adicionar um bootcamp e Dev para adicionar um desenvolvedor que fará o bootcamp
+Na classe main, define-se os objetos com base nas classes Curso para adicionar um novo curso, Mentoria para adicionar uma nova mentoria, Bootcamp para adicionar um bootcamp e Dev para adicionar um desenvolvedor que fará o bootcamp.
 
 [Código Classe Main](https://github.com/matheushardman/desafio-dio-poo/blob/main/src/Main.java)
