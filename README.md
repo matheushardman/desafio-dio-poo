@@ -45,3 +45,5 @@ Nessa classe definiu-se os atributos nome, conteúdos inscritos e concluídos es
 Na classe main, define-se os objetos com base nas classes Curso para adicionar um novo curso, Mentoria para adicionar uma nova mentoria, Bootcamp para adicionar um bootcamp e Dev para adicionar um desenvolvedor que fará o bootcamp.
 
 [Código Classe Main](https://github.com/matheushardman/desafio-dio-poo/blob/main/src/Main.java)
+
+Se esse conteúdo te ajudou, dê uma estrela (Star) para esse repositório
